@@ -15,13 +15,13 @@ type Node struct {
 	next      *Node
 }
 
-type StackList struct {
+type Stack struct {
 	Top  *Node
 	Base *Node
 	Size int
 }
 
-var MyStackList StackList
+var MyStackList Stack
 
 func Check(err error) {
 	if err != nil {
